@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>array.keys()</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\Tunmise Alimi\Desktop\MY WEB PAGES\images\\favicon.ico.jpg">
+    </head>
+    <body>
+        <h2>Javascript array.keys()</h2>
+        <h2>the entries() method</h2>
+        <P> entries() returns an array iterator object with key/value pairs:
+        <p id="demo"></p>
+        <p>The entries() method is not supported in internet explorer 11 (or earlier).</p>
+        <script>
+            const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            const f = fruits.entries(); 
+            for (let x of f) {
+                document.getElementById("demo").innerHTML += x + "<br>"
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Types Conversion </title>
+    </head>
+    <body>
+        <h2>Javascript convert Decimal to binary </h2>
+        <p id="demo" style="font-family: 'Courier New', Courier, monospace;"></p>
+        <script>
+           document.getElementById("demo").innerHTML = dec2bin(-5);
+           function dec2bin(dec) {
+               return (dec >>> 0).toString(2);
+           }
+        </script>
+    </body>
+</html>

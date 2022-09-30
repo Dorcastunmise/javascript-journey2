@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>array.keys()</title>
+        <link rel="icon" type="image/x-icon" href="C:\Users\Tunmise Alimi\Desktop\MY WEB PAGES\images\\favicon.ico.jpg">
+    </head>
+    <body>
+        <h2>Javascript array.keys()</h2>
+        <p>the array.keys() method returns an array iterator object with the keys of the array.</p>
+        <p id="demo"></p>
+        <p>The array.from() method is not supported in internet explorer.</p>
+        <script>
+            const fruits = ["Banana", "Orange", "Apple", "Mango"];
+            const keys = fruits.keys(); 
+            let text = "";
+            for (let x of keys) {
+                text += x + "<br>"
+            }
+            document.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>
